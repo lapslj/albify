@@ -2,27 +2,7 @@ body {
     font-family: "Verdana";
 }
 
-.nametext1 {
-    font-size: 30px;
-    background: linear-gradient(to left,
-            violet,
-            green,
-            red);
-    -webkit-background-clip: text;
-    color: transparent;
-}
-
-.nametext2 {
-    font-size: 30px;
-    background: linear-gradient(to left,
-            violet,
-            green,
-            red);
-    -webkit-background-clip: text;
-    color: transparent;
-}
-
-.nametext3 {
+.nametext {
     font-size: 30px;
     background: linear-gradient(to left,
             violet,
