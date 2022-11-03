@@ -17,6 +17,7 @@ jButton.addEventListener("click", function(e){
     const newName = document.createElement("div");
     e.preventDefault();
     newName.append(albeeAte(jName.value));
+    newName.classList.add("nametext");
     jPunt.append(newName);
     jForm.reset();
 })
