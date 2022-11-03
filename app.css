@@ -10,4 +10,5 @@ body {
             red);
     -webkit-background-clip: text;
     color: transparent;
+    font-style: oblique;
 }
