@@ -3,10 +3,14 @@ body {
 }
 
 .nametext {
-    font-size: 30px;
+    font-size: 15px;
     background: linear-gradient(to left,
             violet,
-            green,
+            orange,
+            yellow,
+            blue,
+            pink,
+            lime,
             red);
     -webkit-background-clip: text;
     color: transparent;
