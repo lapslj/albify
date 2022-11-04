@@ -59,6 +59,5 @@ function delayAlbement(val){
     newName.append(albeeAte(val));
     newName.classList.add("nametext");
     jPunt.append(newName);
-    jForm.reset();
 }
 
