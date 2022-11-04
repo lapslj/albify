@@ -22,9 +22,7 @@ function albeeAte(str){
     return blork;
 }
 
-jButton.addEventListener("click", function(e){
-    createAlbement(e,jName.value)
-})
+
 
 function createAlbement(e,val){
     const newName = document.createElement("div");
@@ -35,9 +33,32 @@ function createAlbement(e,val){
     jForm.reset();
 }
 
-jStoned.addEventListener("click", function(e){
-    setTimeout(createAlbement(e,jName.value),3000);
-    setTimeout(createAlbement(e,albeeAte(jName.value)),2000);
+jButton.addEventListener("click", function(e){
+    createAlbement(e,jName.value)
 })
 
+jStoned.addEventListener("click", function(e){
+    let starter = jName.value;
+    let starter2 = albeeAte(starter);
+    let starter3 = albeeAte(starter2);
+    let starter4 = albeeAte(starter3);
+    let starter5 = albeeAte(starter4);
+    createAlbement(e,starter);
+    setTimeout(function(){
+        delayAlbement(starter2)},"2000")
+    setTimeout(function(){
+        delayAlbement(starter3)},"4000")
+    setTimeout(function(){
+        delayAlbement(starter4)},"6000")
+    setTimeout(function(){
+        delayAlbement(starter5)},"8000")
+    })
+
+function delayAlbement(val){
+    const newName = document.createElement("div");
+    newName.append(albeeAte(val));
+    newName.classList.add("nametext");
+    jPunt.append(newName);
+    jForm.reset();
+}
 
