@@ -14,9 +14,9 @@ function albeeAte(str){
         let lastvow = nArray[endo];
         console.log(lastvow);
         let rVow = ""
-        if ("aeiou".indexOf(lastvow) !== -1){rVow = letter}
+        if ("aeiouAEIOU".indexOf(lastvow) !== -1){rVow = letter}
         else{
-            rVow = "aeiou".indexOf(letter) === -1 ? letter : "aaaaoooouuuuuu" + letter;
+            rVow = "aeiouAEIOU".indexOf(letter) === -1 ? letter : "aaaaoooouuuuuu" + letter;
         }
             blork = blork + rVow;}
     return blork;
