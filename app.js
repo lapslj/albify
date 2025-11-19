@@ -16,7 +16,7 @@ function albeeAte(str){
         let rVow = ""
         if ("aeiou".indexOf(lastvow) !== -1){rVow = letter}
         else{
-            rVow = "aeiou".indexOf(letter) === -1 ? letter : "alb" + letter;
+            rVow = "aeiou".indexOf(letter) === -1 ? letter : "aaaaoooouuuuuu" + letter;
         }
             blork = blork + rVow;}
     return blork;
