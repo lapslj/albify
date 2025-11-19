@@ -4,6 +4,7 @@ body {
 
 .nametext {
     font-size: 25px;
+    font-family: "Eater", serif;
     background: linear-gradient(to left,
             violet,
             orange,
