@@ -6,7 +6,10 @@ body {
     font-size: 25px;
     font-family: "Eater", serif;
     background: linear-gradient(to left,
-            violet
+            violet,
+            red,
+            violet,
+            yellow,
             red);
     -webkit-background-clip: text;
     color: transparent;
